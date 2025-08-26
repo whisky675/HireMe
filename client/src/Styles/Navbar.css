@@ -1,0 +1,68 @@
+.navbar {
+  position:fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background: linear-gradient(90deg,#EFE4D2,#254D70,#131D4F,#954C2E);
+  padding: 25px 30px;
+  display: flex;
+  justify-content: space-between; /* left + right alignment */
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Left section (logo + title) */
+.navbar-left {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.navbar-logo {
+  height: 32px;
+  width: 32px;
+}
+ @import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Major+Mono+Display&display=swap');
+.navbar-title {
+  font-size: 60px;
+  font-weight: 700;
+  color: #ffffff;
+  margin: 0;
+  font-family: "Major Mono Display", monospace;
+  font-weight: 700;
+  font-style: normal;
+  padding-left: 30px;
+}
+
+/* Right section (links) */
+.navbar-right {
+  list-style: none;
+  display: flex;
+  gap: 24px;
+  margin: 0;
+  padding: 0;
+  padding-right: 70px;
+  font-family: "Quantico", sans-serif;
+  font-weight: 200;
+  font-style:normal;
+}
+
+.navbar-right li a {
+  text-decoration: none;
+  color: #f3efef;
+  font-weight: 600;
+  transition: all 0.3s ease;
+  padding: 8px 0; /* remove box feel */
+  border-radius: 0;
+  position: relative;
+}
+
+/* Glow effect on hover */
+.navbar-right li a:hover {
+  color: #ffffff;
+  text-shadow: 0 0 8px #ffffff, 0 0 12px #d6aef7;
+  transform: translateY(-2px);
+}

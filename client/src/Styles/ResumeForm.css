@@ -1,0 +1,66 @@
+/* Resume Form Container */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+.resume-form {
+  background: #f7f4f4;
+  padding: 2rem;
+  border-radius: 12px;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+}
+
+/* Section Headings */
+.resume-form h2 {
+  font-size: 1.4rem;
+  color: #333;
+  border-bottom: 2px solid #f0f0f0;
+  padding-bottom: 0.4rem;
+  margin-bottom: 0.8rem;
+}
+
+/* Input and Textarea Styling */
+.resume-form input,
+.resume-form textarea,
+.resume-form select {
+  width: 100%;
+  padding: 0.8rem;
+  border: 1.5px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  background: #fafafa;
+  transition: all 0.2s ease;
+  outline: none;
+
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, background-color 0.25s ease;
+}
+
+.resume-form input:focus,
+.resume-form textarea:focus,
+.resume-form select:focus {
+  border-color: #09032d;
+  background: #fff;
+  box-shadow: 0 0 5px rgba(106, 90, 205, 0.3);
+}
+
+/* Textarea height */
+.resume-form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+/* Form section box */
+.form-section {
+  padding: 1rem;
+  border: 1px solid #f0f0f0;
+  border-radius: 8px;
+  background: #f9f7ff6a;
+  margin-bottom: 1rem;
+}
+

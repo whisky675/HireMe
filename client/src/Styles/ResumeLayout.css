@@ -1,0 +1,172 @@
+/* Resume Preview Box */
+@import url('https://fonts.googleapis.com/css2?family=Quantico:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+.resume-preview {
+  background: #efeded;
+  padding: 24px 32px;
+  font-family: "Quantico", sans-serif;
+  font-weight: 200;
+  font-style:normal;
+  font-size: 14.5px;
+  line-height: 1.5;
+  color: #222;
+  border-radius: 8px;
+}
+
+/* Headings */
+.resume-preview h2 {
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: bold;
+  color: #000;
+}
+
+.resume-preview h3 {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 18px 0 8px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 3px;
+  text-transform: uppercase;
+  color: #333;
+}
+
+/* Contact line */
+.resume-preview .contact-info {
+  font-size: 13px;
+  color: #555;
+  margin-bottom: 12px;
+}
+
+/* Resume Items */
+.resume-preview .resume-item {
+  margin-bottom: 10px;
+}
+
+.resume-preview .dates {
+  font-size: 12.5px;
+  color: #666;
+  margin-left: 4px;
+}
+
+/* Bullet points */
+.resume-preview ul {
+  margin: 4px 0 10px 20px;
+  padding: 0;
+}
+.resume-preview li {
+  margin-bottom: 4px;
+}
+
+/* Links */
+.resume-preview a {
+  color: #1a0dab;
+  text-decoration: none;
+}
+.resume-preview a:hover {
+  text-decoration: underline;
+}
+.resume-form input,
+.resume-form textarea,
+.resume-form select {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 12px 14px;
+  border: 1px solid #92929368;
+  border-radius: 10px;
+  font-size: 14px;
+  margin-bottom: 14px;
+  background: #ededed;
+  transition: background-color 0.35s ease, box-shadow 0.3s ease, color 0.3s ease;;
+}
+
+/* Hover effect */
+.resume-form input:hover,
+.resume-form textarea:hover,
+.resume-form select:hover {
+  border-color: #4246558a;
+}
+
+/* Focus effect */
+.resume-form input:focus,
+.resume-form textarea:focus,
+.resume-form select:focus {
+  border-color: #4f46e5;   /* violet/blue highlight */
+  box-shadow: 0 0 4px rgba(79, 70, 229, 0.4);
+  outline: none;
+  background: #fff;
+}
+/* ===== Modern Button Style ===== */
+.button-modern {
+  display: inline-block;
+  padding: 12px 24px;
+  font-family: "Quantico", sans-serif;
+  font-weight: 200;
+  font-style:normal;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #29377dec,#b36343ee);
+  background-size: 200% 200%;  /* allows smooth movement */
+  background-position: left center;
+  color: #fff;
+  cursor: pointer;
+  transition: background-position 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3);
+}
+
+/* Hover Effect */
+.button-modern:hover {
+  background-position: right center; /* smoothly shifts the gradient */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(79, 70, 229, 0.4);
+}
+
+/* Active/Click Effect */
+.button-modern:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(79, 70, 229, 0.3);
+}
+
+/* Disabled Button */
+.button-modern:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+.button-modern1 {
+  display: inline-block;
+  padding: 12px 24px;
+  font-family: "Quantico", sans-serif;
+  font-weight: 200;
+  font-style:normal;
+  border: none;
+  border-radius: 8px;
+  background: linear-gradient(135deg, #b1472dd6, #db350ce2);
+  background-size: 200% 200%;  /* allows smooth movement */
+  background-position: left center;
+  color: #fff;
+  cursor: pointer;
+  transition: background-position 0.5s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(79, 70, 229, 0.3);
+}
+
+/* Hover Effect */
+.button-modern1:hover {
+  background-position: right center; /* smoothly shifts the gradient */
+  transform: translateY(-2px);
+  box-shadow: 0 6px 14px rgba(230, 9, 9, 0.4);
+}
+
+/* Active/Click Effect */
+.button-modern1:active {
+  transform: translateY(1px);
+  box-shadow: 0 3px 8px rgba(79, 70, 229, 0.3);
+}
+
+/* Disabled Button */
+.button-modern1:disabled {
+  background: #ccc;
+  cursor: not-allowed;
+  box-shadow: none;
+}
+
+

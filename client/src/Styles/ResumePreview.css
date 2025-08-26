@@ -1,0 +1,53 @@
+.resume-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem;
+  
+}
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap');
+.resume-box {
+  background: #f3f0eb7f;
+  padding: 2rem;
+  max-width: 750px;
+  width: 100%;
+  border: 1px solid#954C2E;
+  border-radius: 5px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+  font-family: "Noto Sans Mono", monospace;
+  font-optical-sizing: auto;
+  font-weight: 350;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+.resume-box h1 {
+  margin-bottom: 0.5rem;
+}
+
+.resume-box .contact {
+  font-size: 0.9rem;
+  color: #444;
+  margin: 0.2rem 0;
+}
+
+.resume-box h2 {
+  margin-top: 1.5rem;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 0.3rem;
+  color: #222;
+}
+
+.resume-item {
+  margin-bottom: 1rem;
+}
+
+.resume-box ul {
+  margin: 0.3rem 0 0.8rem 1.2rem;
+}
+
+.download-section {
+  margin-top: 1.5rem;
+}
