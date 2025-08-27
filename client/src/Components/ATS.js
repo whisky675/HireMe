@@ -24,7 +24,7 @@ const ATSChecker = () => {
       formData.append("jobTitle", "Software Engineer");
       formData.append("jobDescription", "We are hiring a full-stack developer...");
 
-      const res = await fetch("https://hireme-backend-ctxu.onrender.com", {
+      const res = await fetch(`${process.env.REACT_APP_API_URL}/api/resume/analyze`, {
         method: "POST",
         body: formData,
       });
