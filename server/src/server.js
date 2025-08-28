@@ -10,10 +10,8 @@ console.log("Loaded GROQ_API_KEY:", process.env.GROQ_API_KEY ? "✅ Present" : "
 
 const app = express();
 app.use(cors({
-  origin: [
-    "http://localhost:3000",
-    "https://hire-a1nhy5j7a-visheshs-projects-c2430004.vercel.app"  // add Vercel domain
-  ],
+  origin: ["https://hire-mox6feyj8-visheshs-projects-c2430004.vercel.app"], 
+  methods: ["GET", "POST"],
   credentials: true
 }));
 app.use(express.json());
